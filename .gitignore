@@ -1,0 +1,57 @@
+# 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+.settings/
+.project
+.classpath
+
+# 大数据相关
+*.parquet
+*.avro
+*.orc
+
+# 数据文件（可根据需要调整）
+*.csv
+*.xlsx
+*.xls
+*.json
+!config.json
+
+# 其他
+node_modules/
+.env
+*.local
